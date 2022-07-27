@@ -58,11 +58,9 @@ As a "extra mile" and to chalenge myself I included some features:
 
 ### :clipboard: How To Use
 
-To execute in your local machine:
+Just access the link bellow:
 
-STEP 1. Just click in buttom "Code" and download.
-
-STEP 2. Extract all files and open the file "index.html" with you favorite browser.
+https://dan-padovani.github.io/Explorer_projeto06_Pomofocus_timer/
 
 ---
 

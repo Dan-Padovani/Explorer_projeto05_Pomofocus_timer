@@ -12,7 +12,6 @@ let volumeControlRain = document.getElementById('volumeRain')
 let volumeControlShop = document.getElementById('volumeShop')
 let volumeControlFire = document.getElementById('volumeFire')
 
-
 // Input volume control events
 volumeControlForest.addEventListener('change', function() {
 	soundForest.volume = this.value / 100;
