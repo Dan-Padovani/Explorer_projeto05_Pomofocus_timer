@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 62.5%;
+
+	--bgc-main-white: #FFFFFF;
+
+	--color-black-and-white: #323238;
+	--fc-main-black: #323238;
+
+	--btc-background: #E1E1E6;
+	--btc-background-selected: #02799D;
+}
+
+.darkMode {
+	--bgc-main-white: #121214;
+
+	--color-black-and-white: #FFFFFF;	
+	--fc-main-black: #C4C4CC;
+
+	--btc-background: #29292E;
+	--btc-background-selected: #0A3442;
+}
+
+body {
+	background-color: var(--bgc-main-white);
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100vh;
+	width: clamp(65.5rem, 20rem + 48vw, 82.1rem);
+	margin: auto;
+}
+
+.lightTheme,
+.darkTheme {
+	position: absolute;
+	top: 6rem;
+	right: 6rem;
+}
+
+.timer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12.6rem;
+	line-height: 14.7rem;
+	padding-bottom: 1.7rem;
+	
+	display: flex;
+	text-align: center;
+	
+	color: var(--color-black-and-white);
+}
+
+.timerControl {
+	display: flex;
+	gap: 4rem;
+}
+
+.soundsBox {
+	display: flex;
+	width: 30.8rem;
+	height: 33.6rem;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+
+	cursor: pointer;
+	/*#42D3FF cor para seleção de botoes*/
+}
+
+.timerControl button:hover svg path {
+	fill: #42D3FF;
+}
+
+.hide {
+	display: none;
+}
+
+.cardSounds {
+	position: relative;
+}
+
+.buttonCards {
+	width: 13.8rem;
+	height: 15.2rem;
+	background-color: var(--btc-background);
+	border-radius: 2.4rem;
+	/* position: relative; */
+}
+
+.buttonCards svg {
+	position: absolute;
+	top: -2.4rem;
+	display: block;	
+}
+
+.buttonCardSelected {
+	background-color: var(--btc-background-selected);	
+}
+
+svg path {
+	fill: var(--fc-main-black);
+}
+
+.active svg path,
+.darkTheme svg path {
+  fill: #fff;
+}
+
+.volumeBar {
+  appearance: none;
+  margin-right: 1.5rem;
+  width: 9rem;
+  height: 4px;
+  border-radius: 5px;
+  background-color: var(--color-black-and-white);
+	margin: 1rem;
+
+	position: absolute;
+	left: 0; 
+  right: 0;
+	bottom: 2.4rem; 
+  margin-left: auto; 
+  margin-right: auto;
+	z-index: 1;
+}
+
+.volumeBar::-webkit-slider-thumb {
+	appearance: none;
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 50%;
+	background: var(--color-black-and-white);
+}
+
+.volumeBarSelected,
+.volumeBarSelected::-webkit-slider-thumb {
+	background-color: #fff;
+}
+
+@media(max-width: 768px) {
+	main {
+		flex-direction: column;
+		justify-content: center;
+		width: clamp(40.2rem, 20rem + 22vw, 65.4rem);
+		gap: 6rem;
+	}
+
+	.lightTheme,
+	.darkTheme {
+	top: 3rem;
+	right: 3rem;
+	}
+}
