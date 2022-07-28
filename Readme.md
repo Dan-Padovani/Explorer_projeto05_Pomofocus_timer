@@ -50,8 +50,8 @@ As a "extra mile" and to chalenge myself I included some features:
 ### Tablet and Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-	<img alt="tablet version" src="./images/IpadPomofocus2.0.gif">
-	<img alt="mobile version" src="./images/MobilePomofocus2.0.gif">
+	<img alt="tablet version" src="./images/IpadPomofocus2.0.gif" width="500px">
+	<img alt="mobile version" src="./images/MobilePomofocus2.0.gif" width="300px">
 </p>
 
 ---
