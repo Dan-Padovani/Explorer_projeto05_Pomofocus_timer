@@ -44,14 +44,14 @@ As a "extra mile" and to chalenge myself I included some features:
 ### Desktop
 
 <p align="center">
-	<img alt="desktop version" src="./assets/CountDesktop.gif" width="600px">
+	<img alt="desktop version" src="./images/DesktopPomofocus2.0.gif" width="600px">
 </p>
 
 ### Tablet and Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-	<img alt="tablet version" src="./assets/CountTablet.gif">
-	<img alt="mobile version" src="./assets/CountMobile.gif">
+	<img alt="tablet version" src="./images/IpadPomofocus2.0.gif">
+	<img alt="mobile version" src="./images/MobilePomofocus2.0.gif">
 </p>
 
 ---
@@ -60,7 +60,7 @@ As a "extra mile" and to chalenge myself I included some features:
 
 Just access the link bellow:
 
-https://dan-padovani.github.io/Explorer_projeto06_Pomofocus_timer/
+<a href="https://dan-padovani.github.io/Explorer_projeto06_Pomofocus_timer/" target="_blank">Pomofucus timer</a>
 
 ---
 
