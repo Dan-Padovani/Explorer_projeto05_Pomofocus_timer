@@ -53,7 +53,7 @@ main {
 	padding-bottom: 1.7rem;
 	
 	display: flex;
-	text-align: center;
+	justify-content: center;
 	
 	color: var(--color-black-and-white);
 }
@@ -98,7 +98,6 @@ button {
 	height: 15.2rem;
 	background-color: var(--btc-background);
 	border-radius: 2.4rem;
-	/* position: relative; */
 }
 
 .buttonCards svg {
@@ -155,7 +154,7 @@ svg path {
 	main {
 		flex-direction: column;
 		justify-content: center;
-		width: clamp(40.2rem, 20rem + 22vw, 65.4rem);
+		width: clamp(48.6rem, 20rem + 22vw, 65.4rem);
 		gap: 6rem;
 	}
 
@@ -165,3 +164,55 @@ svg path {
 	right: 3rem;
 	}
 }
+
+@media(max-width: 486px) {
+	main {
+		min-width: 32rem;
+		width: clamp(32rem, 10rem + 15vw, 48.5rem);
+		gap: 4rem;
+	}
+
+	.lightTheme, .darkTheme {
+    top: 2rem;
+    right: 2rem;
+}
+
+	.timer{
+		font-size: 9rem;
+		line-height: 10.3rem;
+		padding: 4.2rem 0 1rem;
+	}
+
+	.timerControl {
+		display: flex;
+		gap: 2rem;
+	}
+
+	.timerControl svg {
+		width: 4.2rem;
+		height: 4.2rem;
+	}
+
+	.soundsBox {
+		width: 24.6rem;
+		height: 26.8rem;
+	}
+
+	.buttonCards {
+		width: 11rem;
+		height: 12rem;
+		border-radius: 2rem;
+	}
+
+	.buttonCards svg {
+		width: 11rem;
+		height: 12rem;
+		top: -1.4rem;
+	}
+
+	.volumeBar {
+		bottom: 1.4rem; 
+	}
+}
+
+
